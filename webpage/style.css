@@ -1,0 +1,119 @@
+/* GENERAL RESET */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* NAVIGATION */
+  .navbar {
+    padding: 1rem 0;
+  }
+  
+  .navbar-brand img {
+    height: 40px;
+  }
+  
+  .navbar-nav .nav-link {
+    font-weight: 500;
+    margin-left: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #0d6efd;
+  }
+  
+  /* HERO SECTION */
+  section.text-center h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
+  }
+  
+  section.text-center p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1rem;
+  }
+  
+  /* FEATURE ICONS */
+  .fa {
+    transition: transform 0.3s ease;
+  }
+  
+  .fa:hover {
+    transform: scale(1.1);
+  }
+  
+  section .col-md-4 h5 {
+    margin-top: 1rem;
+    font-weight: 600;
+  }
+  
+  section .col-md-4 p {
+    font-size: 0.95rem;
+  }
+  
+  /* SHOWCASE GALLERY */
+  section.bg-light img {
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+  }
+  
+  section.bg-light img:hover {
+    transform: scale(1.02);
+  }
+  
+  section.bg-light .position-absolute {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  section.bg-light .position-relative:hover .position-absolute {
+    opacity: 1;
+  }
+  
+  /* CONTACT FORM SECTION */
+  section[style*="background"] {
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken;
+    color: white;
+  }
+  
+  section[style*="background"] h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  section[style*="background"] p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  form .form-control {
+    border-radius: 0;
+  }
+  
+  form button {
+    width: 100%;
+    border-radius: 0;
+    padding: 0.5rem;
+    font-weight: 600;
+  }
+  
+  /* FOOTER */
+  footer p {
+    margin-bottom: 0.5rem;
+    color: #555;
+  }
+  
+  footer a {
+    color: #0d6efd;
+    margin: 0 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+  footer a:hover {
+    color: #0056b3;
+  }
+  
